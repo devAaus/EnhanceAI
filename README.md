@@ -19,26 +19,27 @@ EnhanceAI is a powerful web application that utilizes AI to enhance images effor
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/devAaus/EnhanceAI.git
-   cd EnhanceAI
+   git clone https://github.com/devAaus/enhanceAI.git
+   cd enhanceAI
    ```
 2. Install dependencies:
    ```sh
-   pnpm install
+   bun install
    ```
 3. Set up environment variables in a `.env.local` file:
    ```env
    PICWISH_API_KEY=your_api_key_here
+   PICWISH_URL=picwish_api_url
    ```
 4. Run the development server:
    ```sh
-   pnpm dev
+   bun dev
    ```
 5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🎨 Usage
 
 1. Upload an image.
-2. Choose enhancement options.
+2. Click the enhance button.
 3. Let AI process the image.
 4. Download the enhanced image.
