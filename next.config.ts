@@ -1,7 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'wxtechhk.oss-cn-hongkong.aliyuncs.com',
+      }
+    ]
+  },
 };
 
 export default nextConfig;
